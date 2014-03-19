@@ -1,0 +1,41 @@
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+    <meta charset="utf-8">
+</head>
+<body>
+<div class="pages">
+    <div class="pageT"></div>
+    <div class="pageM">
+        <div class="header">
+            <h1 id="TitlePage">Web title here</h1>
+        </div>
+        <div class="main">
+            <iframe id="MainH" src="" onload="callHeight();">
+            </iframe>
+        </div>
+        <div class="menu">
+            <p><h3>About me</h3></p>
+            <p><a>Duy Hiếu</a></p>
+            <p><a>View my profile</a></p>
+            <br>
+            <p><h3>Other link</h3></p>
+            <div class="lineA"></div>
+            <p><a href="Page/Home.html" target="MainH">Link1</a></p>
+            <div class="lineA"></div>
+            <p><a href="Page/Page1.html" target="MainH">Link2</a></p>
+        </div>
+        <div class="footer">
+            <br>
+            <p><h5>Bản quyền thuộc về ai thì không biết :D</h5></p>
+        </div>
+    </div>
+</div>
+<script language="JavaScript">
+    function callHeight(){
+        var dodai = document.getElementById('MainH').contentWindow.document.body.scrollHeight;
+        document.getElementById('MainH').height = dodai;
+    }
+</script>
+</body>
+</html>

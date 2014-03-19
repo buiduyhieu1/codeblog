@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    vertical-align: baseline;
+    font-size: 100%;
+}
+
+body{
+    background-image: url("../images/background.png");
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.PostH{
+    width: 580px;
+    background-image: none;
+    background-color: transparent;
+}
+
+#MainH{
+    width: 100%;
+    border: 0px;
+}
+
+.pages{
+    margin: 10px auto;
+    width: 900px;
+    position: relative;
+}
+
+.pageT{
+    margin: 0;
+    top: 0;
+    width: 900px;
+    min-height: 700px;
+    background-color: #0e131c;
+    opacity: 0.6;
+    position: fixed;
+}
+
+.pageM{
+    margin: 0;
+    top: 0;
+    width: 900px;
+    position: absolute;
+    background-color: transparent;
+}
+
+.header{
+    background-image: url("../images/header.jpg");
+    height: 300px;
+    opacity: 1;
+    position: relative;
+}
+
+#TitlePage{
+    margin: 10px;
+    color: #198eb5;
+    font-size: 3em;
+    position: absolute;
+    top: 20px;
+    left: 10px;
+}
+
+.main{
+    margin: 10px 5px;
+    padding: 5px;
+    float: left;
+    width: 580px;
+    min-height: 500px;
+}
+
+.menu{
+    margin: 10px 5px;
+    padding: 5px;
+    float: right;
+    width: 280px;
+    min-height: 300px;
+}
+
+.footer{
+    background-color: #9c3039;
+    margin: 0;
+    padding: 10px;
+    clear: both;
+    min-height: 80px;
+}
+
+.mainContent{
+    margin: 0;
+    padding: 5px;
+    min-height: 100px;
+    max-height: 500px;
+}
+
+p{
+    padding: 5px;
+    color: #c69578;
+}
+
+a{
+    text-decoration: none;
+    color: dodgerblue;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: #1d6bca;
+    cursor: hand;
+}
+
+.PostName{
+    text-decoration: none;
+    font-size: 2em;
+    color: white;
+}
+
+.postname:hover{
+    text-decoration: none;
+    color: white;
+}
+
+.Poster{
+    float: left;
+}
+
+.PostTime{
+    float: right;
+}
+
+.EndPost{
+    clear: both;
+}
+
+.lineA{
+    border: 1px solid black;
+}
+
+.pre{
+    margin: 0;
+    padding: 10px;
+    float: left;
+    width: 235px;
+}
+
+.home{
+    margin: 0;
+    padding: 10px;
+    float: left;
+}
+
+.next{
+    margin: 0;
+    padding: 10px;
+    float: right;
+}
+
+h3{
+    color: #ff9511;
+    font-size: 1.5em;
+}
+
+h5{
+    text-align: center;
+}
